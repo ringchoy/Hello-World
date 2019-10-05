@@ -14,9 +14,9 @@
                     die(mysql_error());
                }
          $sql = 'SELECT name FROM testhtml';
-//         $results = mysqli_query($connect, $sql);
+         $results = mysqli_query($connect, $sql);
   //          $results = "Kyle is doing great";      
- //        mysqli_close($conn);
+         mysqli_close($conn);
 
 //         if (mysqli_num_rows($result) > 0) {
 //            while($row = mysqli_fetch_assoc($result)) {
