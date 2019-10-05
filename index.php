@@ -3,8 +3,13 @@
     <head><!--header stuff--></head>
     <body>
       <?php 
-        $connect = mysqli_connect("lus-cdbr-iron-east-05.cleardb.net","ba34f3f8d9d386", "6206b3d7", "heroku_f4436271c441c5d");
-                if (!$connect) {
+        $dbhost = 'us-cdbr-iron-east-05.cleardb.net:3306';
+        $dbuser = 'ba34f3f8d9d386';
+        $dbpass = '6206b3d7';
+        $dbname = 'heroku_f4436271c441c5d';
+        $conn = mysqli_connect($dbhost, $dbuser, $dbpass,$dbname);
+//        $conn = mysqli_connect("lus-cdbr-iron-east-05.cleardb.net","ba34f3f8d9d386", "6206b3d7", "heroku_f4436271c441c5d");
+                if (!$conn) {
                     $results = "flop";
    //                 die(mysql_error());
                }
