@@ -3,7 +3,7 @@
 <html>
     <head><!--header stuff--></head>
     <body>
-      <?php $results = "Start";
+      <?php results = "Start";
         $connect = mysql_connect("lus-cdbr-iron-east-05.cleardb.net","ba34f3f8d9d386", "6206b3d7");
                 if (!$connect) {
                     die(mysql_error());
