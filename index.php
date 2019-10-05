@@ -8,7 +8,7 @@
                     die(mysql_error());
                 }
          $sql = 'SELECT name FROM testhtml';
-         $result = mysqli_query($connect, $sql);
+         $results = mysqli_query($connect, $sql);
 
 //         if (mysqli_num_rows($result) > 0) {
 //            while($row = mysqli_fetch_assoc($result)) {
