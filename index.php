@@ -8,7 +8,7 @@
                     die(mysql_error());
                 }
                 mysql_select_db("heroku_f4436271c441c5d");
-                $results = mysql_query("SELECT * FROM testhtml");
+                $results = "Kyle";
         ?>
         <h1> <?php echo $results; ?> </h1>
     </body>
