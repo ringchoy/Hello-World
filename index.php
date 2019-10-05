@@ -5,6 +5,8 @@
 <html>
     <head><!--header stuff--></head>
     <body>
-        $results
+        <?php while($row = $results) : ?>
+        $row
+        <?php endwhile;?>
     </body>
 </html>
