@@ -1,5 +1,5 @@
 <?php 
-        $results = "SELECT * FROM testhtml"
+        results = "SELECT * FROM testhtml"
 ?>
 <!DOCTYPE html>
 <html>
