@@ -6,6 +6,6 @@
       <?php 
                 $results = "FROM testhtml";
       ?>
-        <h1> echo $results </h1>
+        <h1> ,?php echo $results; ?> </h1>
     </body>
 </html>
