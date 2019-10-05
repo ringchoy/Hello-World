@@ -11,7 +11,8 @@
                 mysql_select_db("heroku_f4436271c441c5d");
                 $results = "Kyle";
         ?>
-        <h1> Double Check </h1>
+        <h1> Double Check Before PHP out</h1>
         <h1> <?php echo $results; ?> </h1>
+        <h1> Triple Check after PHP </h1>
     </body>
 </html>
