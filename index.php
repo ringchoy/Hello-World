@@ -18,17 +18,19 @@
   //          $results = "Kyle is doing great";      
          mysqli_close($conn);
 
-//         if (mysqli_num_rows($result) > 0) {
-//            while($row = mysqli_fetch_assoc($result)) {
-//               echo "Name: " . $row["name"]. "<br>";
-//            }
-//         } else {
-//            echo "0 results";
-//         }
+         if (mysqli_num_rows($results) > 0) {
+            while($row = mysqli_fetch_assoc($results)) {
+               echo "Name: " . $row["name"]. "<br>";
+               $nameresult = $row["name"];                
+            }
+         } else {
+            echo "0 results";
+         }
 //                //$results = "Kyle";
         ?>
         
         <h1> Double Check Before PHP out</h1>
+        <h1> <?php echo $nameresult; ?> </h1>
         <h1> <?php echo $results; ?> </h1>
         <h1> Triple Check after PHP </h1>
     </body>
