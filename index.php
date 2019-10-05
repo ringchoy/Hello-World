@@ -14,7 +14,7 @@
                     die(mysql_error());
                }
          $sql = 'SELECT name FROM testhtml';
-         $results = mysqli_query($connect, $sql);
+         $results = mysqli_query($conn, $sql);
   //          $results = "Kyle is doing great";      
          mysqli_close($conn);
 
