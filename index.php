@@ -7,7 +7,7 @@
                 if (!$connect) {
                     $results = "flop";
   //                  die(mysql_error());
-  //              }
+               }
 //         $sql = 'SELECT name FROM testhtml';
 //         $results = mysqli_query($connect, $sql);
             $results = "Kyle is doing great";      
