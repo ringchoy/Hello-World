@@ -3,8 +3,8 @@
 <html>
     <head><!--header stuff--></head>
     <body>
-      <?php /*$connect = mysql_connect("lus-cdbr-iron-east-05.cleardb.net","ba34f3f8d9d386", "6206b3d7");
-                if (!$connect) {
+      <?php $connect = mysql_connect("lus-cdbr-iron-east-05.cleardb.net","ba34f3f8d9d386", "6206b3d7");
+                /*if (!$connect) {
                     $results = "flop";
                     die(mysql_error());
                 }
