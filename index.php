@@ -11,9 +11,9 @@
 //        $conn = mysqli_connect("lus-cdbr-iron-east-05.cleardb.net","ba34f3f8d9d386", "6206b3d7", "heroku_f4436271c441c5d");
                 if (!$conn) {
                     $results = "flop";
-   //                 die(mysql_error());
+                    die(mysql_error());
                }
-//         $sql = 'SELECT name FROM testhtml';
+         $sql = 'SELECT name FROM testhtml';
 //         $results = mysqli_query($connect, $sql);
   //          $results = "Kyle is doing great";      
  //        mysqli_close($conn);
